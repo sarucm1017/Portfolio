@@ -98,18 +98,14 @@ const Project = () => {
 
                         />
                         <div className="content">
-                            <h3>PI Dogs</h3>
+                            <h3>BootStrap-Form</h3>
                             <p>
                                 Individual Project
                             </p>
                             <p className="tecnologias">
-                                React
-                                <span> -</span> CSS
-                                <span> -</span> Redux
-                                <span> -</span> NodeJS
-                                <span> -</span> ExpressJS
-                                <span> -</span> Sequelize
-                                <span> -</span> PostgreSQL
+                                <span> -</span>BootStrap
+                                <span> -</span>HTML5
+                                <span> -</span> CSS  
                             </p>
                             <a href="https://bootstrap-form.onrender.com" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
                             <a href="https://github.com/sarucm1017/Bootstrap-Form" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
@@ -117,60 +113,68 @@ const Project = () => {
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
                         <img
-                            src={proyectImg(`./proyecto-7.jpg`)}
+                            src={proyectImg(`./employeeManagement.png`)}
                             alt='proyectos'
                         />
                         <div className="content">
-                            <h3>Power Engine</h3>
+                            <h3>Employee Management</h3>
                             <p>
-                                Automobiles Website
+                               Employee Management System
                             </p>
                             <p className="tecnologias">
                                 HTML5
                                 <span> -</span> CSS
                                 <span> -</span> JavaScript
+                                <span> -</span> Node.js
                             </p>
-                            <a href="https://nahuel61920.github.io/Power-Engine/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Nahuel61920/Power-Engine" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://employeemanagementnode.onrender.com" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
+                            <a href="https://github.com/sarucm1017/employeemanagementnode" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
                         <img
-                            src={proyectImg(`./proyecto-6.jpg`)}
+                            src={proyectImg(`./contactlist.png`)}
                             alt='proyectos'
                         />
                         <div className="content">
-                            <h3>Spider-Man fan page</h3>
+                            <h3>Contact-List</h3>
                             <p>
-                                Fan page Spider-Man
+                                React ContactList using Redux , Node.js
                             </p>
                             <p className="tecnologias">
                                 HTML5
                                 <span> -</span> CSS
                                 <span> -</span> JavaScript
                                 <span> -</span> Bootstrap
+                                <span> -</span> React
+                                <span> -</span> Redux
+                                <span> -</span> Node.js
+                                <span> -</span> Express
                             </p>
-                            <a href="https://nahuel61920.github.io/Spider-Man/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Nahuel61920/Spider-Man" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://frontend-contactlist-saru-cms-projects.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
+                            <a href="https://github.com/sarucm1017/frontend-contactlist" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
                         <img
-                            src={proyectImg(`./proyecto-12.jpg`)}
+                            src={proyectImg(`./Blog.png`)}
                             alt='proyectos'
                         />
                         <div className="content">
-                            <h3>EveryRunnig</h3>
+                            <h3>Blog-Project</h3>
                             <p>
-                                Website shoes
+                               Blog project using React 
                             </p>
                             <p className="tecnologias">
                                 HTML5
                                 <span> -</span> CSS
                                 <span> -</span> JavaScript
                                 <span> -</span> Bootstrap
+                                <span> -</span> React
+                                <span> -</span> Node.js
+                                <span> -</span> Express
                             </p>
-                            <a href="https://nahuel61920.github.io/EveryRunning/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
+                            <a href="https://react-project-blog-frontend-saru-cms-projects.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
                             <a href="https://github.com/Nahuel61920/EveryRunning" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
                     </SwiperSlide>
@@ -193,84 +197,7 @@ const Project = () => {
                             <a href="https://nahuel61920.github.io/PremierFood/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
                             <a href="https://github.com/Nahuel61920/PremierFood" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
-                    </SwiperSlide>
-                    <SwiperSlide className='caja'>
-                        <img
-                            src={proyectImg(`./proyecto-8.jpg`)}
-                            alt='proyectos'
-                        />
-                        <div className="content">
-                            <h3>ShopTec</h3>
-                            <p>
-                                Ecommerce
-                            </p>
-                            <p className="tecnologias">
-                                HTML5
-                                <span> -</span> CSS
-                                <span> -</span> Sass
-                                <span> -</span> JavaScript
-                            </p>
-                            <a href="https://nahuel61920.github.io/shop-tec/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Nahuel61920/shop-tec" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide className='caja'>
-                        <img
-                            src={proyectImg(`./proyecto-10.jpg`)}
-                            alt='proyectos'
-                        />
-                        <div className="content">
-                            <h3>Elegant Hand</h3>
-                            <p>
-                                Watch Shop
-                            </p>
-                            <p className="tecnologias">
-                                HTML5
-                                <span> -</span> CSS
-                                <span> -</span> JavaScript
-                            </p>
-                            <a href="https://nahuel61920.github.io/ElegantHand/ " className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Nahuel61920/ElegantHand" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide className='caja'>
-                        <img
-                            src={proyectImg(`./proyecto-9.jpg`)}
-                            alt='proyectos'
-                        />
-                        <div className="content">
-                            <h3>Vida en papel</h3>
-                            <p>
-                                Bookstore
-                            </p>
-                            <p className="tecnologias">
-                                HTML5
-                                <span> -</span> CSS
-                                <span> -</span> JavaScript
-                            </p>
-                            <a href="https://nahuel61920.github.io/vida-en-papel/ " className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Nahuel61920/vida-en-papel" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide className='caja'>
-                        <img
-                            src={proyectImg(`./proyecto-11.jpg`)}
-                            alt='proyectos'
-                        />
-                        <div className="content">
-                            <h3>Plus Anime</h3>
-                            <p>
-                                Anime website
-                            </p>
-                            <p className="tecnologias">
-                                HTML5
-                                <span> -</span> CSS
-                                <span> -</span> JavaScript
-                            </p>
-                            <a href="https://nahuel61920.github.io/PlusAnime/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Nahuel61920/PlusAnime" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
-                        </div>
-                    </SwiperSlide>
+                    </SwiperSlide>            
                 </Swiper>
                 <div className="swiper-pagination"></div>
             </div>

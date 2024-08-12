@@ -109,6 +109,11 @@ const About = () => (
                         <img alt="React" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
                         <h5>React</h5>
                     </div>
+                    <div>
+                        <img alt="Redux" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" />
+                        <h5>Redux</h5>
+                        
+                    </div>
                 </div>
                 <h4>Back-End</h4>
                 <div className="skill">
@@ -125,7 +130,7 @@ const About = () => (
                         <h5>MongodDB</h5>
                     </div>
                     <div>
-                        <img alt="php" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
+                        <img alt="php" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
                         <h5>MySql</h5>
                     </div>
                 </div>
@@ -139,10 +144,6 @@ const About = () => (
                     <div>
                         <img alt="figma" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" title="figma" />
                         <h5>Figma</h5>
-                    </div>
-                    <div>
-                        <img alt="photoshop" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" title="Photoshop" />
-                        <h5>Photoshop</h5>
                     </div>
                     <div>
                         <img alt="Visual Studio Code" className="icons-skils" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Visual_Studio_Code_1.18_icon.svg/1200px-Visual_Studio_Code_1.18_icon.svg.png" title="Visual Studio Code" />
